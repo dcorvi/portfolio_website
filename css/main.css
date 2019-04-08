@@ -1,0 +1,87 @@
+body {
+  overflow-x: hidden;
+  font-size: 13px;
+  margin: 0px;
+  background-color: steelblue;
+}
+header {
+  background-color: #443D3E;
+}
+h1 {
+	margin-top: 0;
+}
+
+#social-media-icons {
+	height:50px;
+	width: 150px;
+	background-color: #f1f1f1;
+	position: fixed;
+	right: 10px;
+	top: 10px;
+	overflow: auto;
+}
+
+/* social media icons */
+.fa {
+	width:40px;
+	height:40px;
+	margin:5px;
+	float:right;
+}
+
+.fa:hover {
+	opacity: 0.7;
+}
+
+
+.pull-right {
+  float: right;
+}
+
+/* /menu 2  */
+
+#active {
+  background-color: black;
+}
+
+
+article {
+  padding: 25px;
+  margin-right: 150px;
+  height: 500px;
+}
+article>p {
+  overflow-y: scroll;
+  height: 50%;
+}
+
+
+
+footer {
+	background-color: #443D3E;
+}
+
+#email {
+	font-size: 15pt;
+	text-align: center;
+	color: #20bcd5;
+	float: left;
+	height: 100%;
+	padding: 5px;
+}
+
+#email a {
+	color: black;
+}
+
+#email a:hover {
+	color: #0707f4;
+}
+
+#phone {
+	font-size: 13pt;
+	font-family: Arial;
+	padding: 10pt;
+	color: black;
+	text-align: center;
+}
