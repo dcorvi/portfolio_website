@@ -21,6 +21,11 @@ h1 {
 	overflow: auto;
 }
 
+#logolink {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
 /* social media icons */
 .fa {
 	width:40px;
@@ -36,6 +41,39 @@ h1 {
 
 .pull-right {
   float: right;
+}
+
+
+.card {
+  padding: 5%;
+  margin-top: 20px;
+}
+
+.card-img>img {
+  display: block;
+  margin: 25px auto;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.card-title {
+  font-size: 130%;
+  font-weight: bold;
+}
+
+.card-subtitle {
+  font-size: 90%;
+  font-style: italic;
+}
+
+.card-text>p {
+  text-align: center;
+  padding: 5px;
+}
+
+.card>button {
+  width: 80%;
+  margin: 15px auto;
 }
 
 /* /menu 2  */
